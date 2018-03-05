@@ -2,7 +2,7 @@ class Config(object):
     """
     Configurations base class
     """
-
+    POSTS_PER_PAGE = 5
 
 class DevelopmentConfig(Config):
     """

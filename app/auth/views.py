@@ -53,7 +53,7 @@ def login():
         if user is not None and user.verify_password(login_form.password.data):
             # log user in
             login_user(user)
-            return redirect(url_for('home.dashboard'))
+            return redirect(url_for('home.search'))
         
         # if user does not exist, give message that says its wrong
         else:
