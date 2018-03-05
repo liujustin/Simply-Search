@@ -17,10 +17,10 @@ flask run
 ````
 
 ## Requirements:
-- [ ] Register a user with a username, First name, Last name, email, and 
+- [X] Register a user with a username, First name, Last name, email, and 
 password. 
-- [ ] Save the user data in MySQL database 
-- [ ] Login user (Validate the user information: username and password from 
+- [X] Save the user data in MySQL database 
+- [X] Login user (Validate the user information: username and password from 
 MySQL). Make sure you use ORM to insert and query data in MySQL (Eg: SQLAlchemy) 
 - [ ] After user logs in, display a keyword search box. (Something like 
 Google Search Box) 
