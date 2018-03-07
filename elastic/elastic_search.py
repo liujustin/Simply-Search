@@ -18,7 +18,6 @@ class Elastic_Search:
             self.es.indices.delete(index="elasticsearch")
             print '---Indexing data into elastic search---'
             for document in cursor:
-                print document
                 self.es.index(index="elasticsearch",
                               doc_type="sample_data",
                               id=json.loads(json_util.dumps(document['_id'])).get("$oid"),

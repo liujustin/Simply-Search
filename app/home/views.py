@@ -31,11 +31,9 @@ def search():
 @login_required
 def search_results(query):
     page, per_page, offset = get_page_args()
-    print page, per_page, offset
     result = searching_elastic.searching_elastic(query)
+    # this is a new array that will only display a couple of results per page
     current_result = result[offset:per_page*page]
-    # new_result = [result[x:x+10] for x in xrange(0, len(result), 10)]
-    # print new_result
     pagination = Pagination(page=page, per_page=per_page, offset=offset,
                             total=len(result), record_name='result', css_framework='foundation')
     return render_template('home/search_results.html', results=current_result, pagination=pagination, per_page=per_page)
