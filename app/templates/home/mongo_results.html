@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Search Results{% endblock %}
+{% block title %}Mongo Results{% endblock %}
 {% block body
 %}
 <div class="intro-header">
@@ -7,11 +7,11 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="intro-message">
-                    <h3>Search Results</h3>
+                    <h3>Mongo Results</h3>
                     <hr class="intro-divider">
-                    {% for result in results %}
-                        <a href="/search_results/{{result._source.data}}/{{result._id}}">{{ result._source.data }} {{ result._source.date}}</a>
-                    {% endfor %}
+                    <h2>{{ results["sample_data"].name }}</h2>
+                    <h3>{{ results["sample_data"].date }}</h3>
+                    <p>{{ results["sample_data"].description }}</p>
                     </ul>
                 </div>
             </div>

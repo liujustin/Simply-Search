@@ -3,13 +3,9 @@ from flask import (redirect,
                    url_for
 )
 from flask_login import login_required
-
 from . import home
 from forms import SearchForm
-from elasticsearch import Elasticsearch
-
-host = "http://localhost:9200"
-elastic_search = Elasticsearch(host)
+from ..search import searching_elastic, searching_mongo
 
 @home.route('/')
 def homepage():
@@ -33,5 +29,11 @@ def search():
 @home.route('/search_results/<query>')
 @login_required
 def search_results(query):
-    es.search(body=query)
-    return render_template('home/search_results.html', query=query)
+    result = searching_elastic.searching_elastic(query)
+    return render_template('home/search_results.html', results=result)
+
+@home.route('/search_results/<query>/<mongo_id>')
+@login_required
+def mongo_results(query, mongo_id):
+    result = searching_mongo.searching_mongo(mongo_id)
+    return render_template('home/mongo_results.html', results=result)
