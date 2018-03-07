@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% block title %}Mongo Results{% endblock %}
-{% block body
-%}
+{% block body %}
 <div class="intro-header">
     <div class="container">
         <div class="row">
@@ -12,7 +11,9 @@
                     <h2>{{ results["sample_data"].name }}</h2>
                     <h3>{{ results["sample_data"].date }}</h3>
                     <p>{{ results["sample_data"].description }}</p>
-                    </ul>
+                    <br />
+                    <p>To learn more:</p>
+                    <p>{{ results["sample_data"].url }}</p>
                 </div>
             </div>
         </div>

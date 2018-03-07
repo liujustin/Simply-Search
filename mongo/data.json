@@ -71,6 +71,301 @@
             "name": "Christmas",
             "url": "https:\/\/en.wikipedia.org\/wiki\/Christmas",
             "description": "Christmas or Christmas Day (Old English: Cr\u012bstesm\u00e6sse, literally \"Christ's mass\") is an annual commemoration of the birth of Jesus Christ, celebrated generally on December 25 as a religious and cultural holiday by billions of people around the world. A feast central to the Christian liturgical year, it closes the Advent season and initiates the twelve days of Christmastide. Christmas is a civil holiday in many of the world's nations, is celebrated by an increasing number of non-Christians, and is an integral part of the Christmas and holiday season."
+        },
+        {
+            "date": "2018-01-16",
+            "name": "Religious Freedom Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/National_Religious_Freedom_Day",
+            "description": "Religious Freedom Day commemorates the Virginia General Assembly's adoption of Thomas Jefferson's landmark Virginia Statute for Religious Freedom on January 16, 1786. This vital document became the basis for the separation of church and state, and led to freedom of religion for all Americans as protected in the religion clause in the U.S. Constitution's First Amendment."
+        },
+        {
+            "date": "2018-02-02",
+            "name": "Groundhog Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Groundhog_Day",
+            "description": "Groundhog Day is a day celebrated on February 2. According to folklore, if it is cloudy when a groundhog emerges from its burrow on this day, then spring will come early. If it is sunny, the groundhog will supposedly see its shadow and retreat back into its burrow, and the winter weather will continue for six more weeks.\n\nThe first official Groundhog Day was during February 2, 1887 , at Gobbler's Knob, which was about 65 miles northeast of Pittsburgh, but there is reference that the first Groundhog Day was in 1841."
+        },
+        {
+            "date": "2018-02-04",
+            "name": "Super Bowl Sunday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Super_Bowl",
+            "description": "The Super Bowl is the annual championship game of the National Football League (NFL), the highest level of professional American football in the United States, culminating a season that begins in the late summer of the previous calendar year. This game is held at a selected site, usually a city that hosts an NFL team. The Super Bowl uses Roman numerals to identify each game, rather than the year in which it is held, with Super Bowl I being the 1966 season championship game."
+        },
+        {
+            "date": "2018-02-12",
+            "name": "Lincoln's Birthday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Lincoln%27s_Birthday",
+            "description": "Lincoln's Birthday is a legal holiday in some U.S. states including California, Connecticut, Illinois, Missouri, New Jersey, New York, and Indiana. It is observed on the anniversary of Abraham Lincoln's birth on February 12, 1809."
+        },
+        {
+            "date": "2018-02-12",
+            "name": "Shrove Monday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Shrove_Monday",
+            "description": "Shrove Monday, sometimes known as Collop Monday, Rose Monday, Merry Monday or Hall Monday, is the Monday before Ash Wednesday; March 7 in 2011. Part of the English traditional Shrovetide celebrations of the week before Lent, the Monday precedes Shrove Tuesday. As the Monday before Ash Wednesday, it is part of diverse Carnival celebrations which take place in many parts of the Christian world, from Greece, to Germany, to the Mardi Gras and Carnival of the Americas."
+        },
+        {
+            "date": "2018-02-13",
+            "name": "Shrove Tuesday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Shrove_Tuesday",
+            "description": "Shrove Tuesday (also known as Pancake Day) is the day preceding Ash Wednesday, the first day of Lent. Shrove Tuesday is observed in English-speaking countries, especially in Ireland, United Kingdom, Canada, Australia, New Zealand, Philippines, Germany and parts of the United States. Shrove Tuesday is linked to Easter therefore its date changes on an annual basis.\n\nIn most traditions the day is known for the eating of pancakes before the start of lent. Pancakes are eaten as they are made out of the main foods available, sugar, fat, flour and eggs, whose consumption was traditionally restricted during the ritual fasting associated with Lent."
+        },
+        {
+            "date": "2018-02-14",
+            "name": "Valentine's Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Valentine%27s_day",
+            "description": "Saint Valentine's Day, commonly shortened to Valentine's Day, is a holiday observed on February 14 honoring one or more early Christian martyrs named Saint Valentine. It is traditionally a day on which lovers express their love for each other by presenting flowers, offering confectionery, and sending greeting cards (known as \"valentines\"). The day first became associated with romantic love in the circle of Geoffrey Chaucer in the High Middle Ages, when the tradition of courtly love flourished. It was first established by Pope Gelasius I in 496 AD, and was later deleted from the General Roman Calendar of saints in 1969 by Pope Paul VI."
+        },
+        {
+            "date": "2018-02-19",
+            "name": "President's Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Presidents%27_Day",
+            "description": "Washington's Birthday is a United States federal holiday celebrated on the third Monday of February in honor of George Washington, the first President of the United States. It is also commonly known as Presidents Day (sometimes spelled Presidents' Day or President's Day). As Washington's Birthday or Presidents Day, it is also the official name of a concurrent state holiday celebrated on the same day in a number of states."
+        },
+        {
+            "date": "2018-03-11",
+            "name": "Daylight Saving Time begins",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Daylight_saving_time",
+            "description": "Turn clocks one hour forward at 2:00 AM\n\nDaylight saving time (DST) is the practice of temporarily advancing clocks during the summertime so that evenings have more daylight and mornings have less. Typically clocks are adjusted forward one hour near the start of spring and are adjusted backward in autumn. Modern DST was first proposed in 1895 by George Vernon Hudson  and it was first implemented during the First World War. Many countries have used it at various times since then; details vary by location."
+        },
+        {
+            "date": "2018-03-17",
+            "name": "St. Patrick's Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Saint_Patrick%27s_Day",
+            "description": "Saint Patrick's Day (Irish: L\u00e1 Fh\u00e9ile P\u00e1draig; Ulster-Scots: Saunt Petherick's Day) is a cultural and religious holiday celebrated internationally on 17 March. It commemorates Saint Patrick (c. AD 387-461), the most commonly recognised of the patron saints of Ireland, and the arrival of Christianity in Ireland. It is observed by the Catholic Church, the Anglican Communion (especially the Church of Ireland), the Eastern Orthodox Church and Lutheran Church. Saint Patrick's Day was made an official feast day in the early 17th century, and has gradually become a secular celebration of Irish culture in general."
+        },
+        {
+            "date": "2018-03-20",
+            "name": "March equinox",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Equinox",
+            "description": "An equinox occurs twice a year, when the tilt of the Earth's axis is inclined neither away from nor towards the Sun, the center of the Sun being in the same plane as the Earth's equator. The term equinox can also be used in a broader sense, meaning the date when such a passage happens. The name \"equinox\" is derived from the Latin aequus (equal) and nox (night), because around the equinox, the night and day have approximately equal length."
+        },
+        {
+            "date": "2018-03-30",
+            "name": "Good Friday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Good_Friday",
+            "description": "Good Friday (from the senses pious, holy of the word \"good\"), is a religious holiday observed primarily by Christians commemorating the crucifixion of Jesus Christ and his death at Calvary. The holiday is observed during Holy Week as part of the Paschal Triduum on the Friday preceding Easter Sunday, and may coincide with the Jewish observance of Passover. It is also known as Black Friday, Holy Friday, Great Friday, or Easter Friday, though the latter normally refers to the Friday in Easter week."
+        },
+        {
+            "date": "2018-04-01",
+            "name": "April Fool's Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/April_Fools%27_Day",
+            "description": "April Fools' Day is celebrated in different countries around the world on April 1 every year. Sometimes referred to as All Fools' Day, April 1 is not a national holiday, but is widely recognized and celebrated as a day when many people play all kinds of jokes and foolishness. The day is marked by the commission of good-humoured or otherwise funny jokes, hoaxes, and other practical jokes of varying sophistication on friends, family members, teachers, neighbors, work associates, etc."
+        },
+        {
+            "date": "2018-04-15",
+            "name": "Tax Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Tax_Day",
+            "description": "In the United States, Tax Day is a colloquial term for the day on which individual income tax returns are due to the federal government. The term may also refer to the same day for states, even where the tax return due date is a different day.\n\nSince 1955, Tax Day is usually on April 15. When April 15 falls on a weekend, Emancipation Day, or any other holiday, tax returns are instead due on the following business day."
+        },
+        {
+            "date": "2018-04-22",
+            "name": "Earth Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Earth_Day",
+            "description": "Earth Day is a day that is intended to inspire awareness and appreciation for the Earth's natural environment. Earth Day was founded by United States Senator Gaylord Nelson as an environmental teach-in first held on April 22, 1970. While this first Earth Day was focused on the United States, an organization launched by Denis Hayes, who was the original national coordinator in 1970, took it international in 1990 and organized events in 141 nations. Earth Day is now coordinated globally by the Earth Day Network, and is celebrated in more than 175 countries every year. Numerous communities celebrate Earth Week, an entire week of activities focused on environmental issues. In 2009, the United Nations designated April 22 International Mother Earth Day."
+        },
+        {
+            "date": "2018-04-23",
+            "name": "Administrative Professionals Day",
+            "url": "http:\/\/www.daysoftheyear.com\/days\/administrative-professionals-day\/"
+        },
+        {
+            "date": "2018-04-27",
+            "name": "Arbor Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Arbor_Day",
+            "description": "Arbor Day (from the Latin arbor, meaning tree) is a holiday in which individuals and groups are encouraged to plant and care for trees. It originated in Nebraska City, Nebraska during 1872 by J. Sterling Morton. The first Arbor Day was held on April 10, 1872, and an estimated 1 million trees were planted that day."
+        },
+        {
+            "date": "2018-05-01",
+            "name": "Loyalty Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Loyalty_Day",
+            "description": "Loyalty Day is observed on May 1 in the United States. It is a day set aside for the reaffirmation of loyalty to the United States and for the recognition of the heritage of American freedom."
+        },
+        {
+            "date": "2018-05-05",
+            "name": "Cinco de Mayo",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Cinco_de_Mayo",
+            "description": "Cinco de Mayo (Spanish for \"fifth of May\") is a celebration held on May 5. It is celebrated nationwide in the United States and regionally in Mexico, primarily in the state of Puebla, where the holiday is called El Dia de la Batalla de Puebla (English: The Day of the Battle of Puebla). The date is observed in the United States as a celebration of Mexican heritage and pride, and to commemorate the cause of freedom and democracy during the first years of the American Civil War. In the state of Puebla, the date is observed to commemorate the Mexican army's unlikely victory over French forces at the Battle of Puebla on May 5, 1862, under the leadership of General Ignacio Zaragoza Segu\u00edn. Contrary to widespread popular belief, Cinco de Mayo is not Mexico's Independence Day\u2014the most important national patriotic holiday in Mexico\u2014which is actually celebrated on September 16."
+        },
+        {
+            "date": "2018-05-10",
+            "name": "Ascension Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Ascension_of_Jesus_Christ",
+            "description": "The Ascension of Jesus is the Christian teaching found in the New Testament that the resurrected Jesus was taken up to heaven in his resurrected body, in the presence of eleven of his apostles, occurring 40 days after the resurrection. In the biblical narrative, an angel tells the watching disciples that Jesus' second coming will take place in the same manner as his ascension."
+        },
+        {
+            "date": "2018-05-13",
+            "name": "Mother's Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Mother%27s_Day",
+            "description": "Mother's Day is a celebration honoring mothers and celebrating motherhood, maternal bonds, and the influence of mothers in society. It is celebrated on various days in many parts of the world, yet most commonly in March, April, or May. It complements Father's Day, the celebration honoring fathers.\n\nCelebrations of mothers and motherhood occur throughout the world; many of these can be traced back to ancient festivals, like the Greek cult to Cybele or the Roman festival of Hilaria. The modern US holiday is not directly related to these."
+        },
+        {
+            "date": "2018-05-15",
+            "name": "Peace Officers Memorial Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Peace_Officers_Memorial_Day",
+            "description": "Peace Officers Memorial Day and Police Week is an observance in the United States that pays tribute to the local, state, and Federal peace officers. The Memorial takes place on May 15, and Police Week is the calendar week in which the Memorial falls."
+        },
+        {
+            "date": "2018-05-19",
+            "name": "Armed Forces Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Armed_Forces_Day#United_States",
+            "description": "In the United States, Armed Forces Day is celebrated on the third Saturday in May. It falls near the end of Armed Forces Week, which begins on the second Saturday of May and ends on the third Sunday of May.\n\nThe day was created in 1949 to honor Americans serving in the five U.S. military branches - the Army, Navy, Marines, Air Force, and Coast Guard - following the consolidation of the military services in the Department of Defense. It was intended to replace the separate Army, Navy, Air Force, Marine Corps, and Coast Guard Days, but the separate days are still observed, especially within the respective services."
+        },
+        {
+            "date": "2018-05-29",
+            "name": "John F. Kennedy's Birthday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/John_F._Kennedy",
+            "description": "John Fitzgerald \"Jack\" Kennedy (May 29, 1917 - November 22, 1963), often referred to by his initials JFK, was the 35th President of the United States, serving from 1961 until his assassination in 1963.\n\nAfter military service as commander of the Motor Torpedo Boats PT-109 and PT-59 during World War II in the South Pacific, Kennedy represented Massachusetts's 11th congressional district in the U.S. House of Representatives from 1947 to 1953 as a Democrat. Thereafter, he served in the U.S. Senate from 1953 until 1960. Kennedy defeated then Vice President and Republican candidate Richard Nixon in the 1960 U.S. presidential election. He was the youngest elected to the office, at the age of 43, the second-youngest President (after Theodore Roosevelt), and the first president to have been born in the 20th century. Kennedy is the only Catholic president, and is the only president to have won a Pulitzer Prize. Events during his presidency included the Bay of Pigs Invasion, the Cuban Missile Crisis, the building of the Berlin Wall, the Space Race, the African American Civil Rights Movement, and early stages of the Vietnam War."
+        },
+        {
+            "date": "2018-06-14",
+            "name": "Flag Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Flag_Day_%28United_States%29",
+            "description": "In the United States Flag Day is celebrated on June 14. It commemorates the adoption of the flag of the United States, which happened that day by resolution of the Second Continental Congress in 1777. The United States Army also celebrates the Army Birthday on this date; Congress adopted \"the American continental army\" after reaching a consensus position in the Committee of the Whole on June 14, 1775."
+        },
+        {
+            "date": "2018-06-17",
+            "name": "Father's Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Father%27s_Day",
+            "description": "Father's Day is a celebration honoring fathers and celebrating fatherhood, paternal bonds, and the influence of fathers in society. Many countries celebrate it on the third Sunday of June but it is also celebrated widely on other days. Father's Day complements Mother's Day, the celebration honoring mothers."
+        },
+        {
+            "date": "2018-06-21",
+            "name": "Summer solstice",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Summer_solstice",
+            "description": "The summer solstice occurs exactly when the axial tilt of a planet's semi-axis in a given hemisphere is most inclined towards the star that it orbits. Earth's maximum axial tilt to our star, the Sun, during a solstice is 23\u00b0 26'. Though the summer solstice is an instant in time, the term is also colloquially used like Midsummer to refer to the day on which it occurs. Except in the polar regions (where daylight is continuous for many months), the day on which the summer solstice occurs is the day of the year with the longest period of daylight."
+        },
+        {
+            "date": "2018-07-27",
+            "name": "Korean War Veterans Day",
+            "url": "http:\/\/www.kwva.org\/",
+            "description": "The Korean War (25 June 1950 - 27 July 1953) was a war between the Republic of Korea (supported primarily by the United States of America, with contributions from allied nations under the aegis of the United Nations) and the Democratic People's Republic of Korea (supported by the People's Republic of China, with military and material aid from the Union of Soviet Socialist Republics). The Korean War was primarily the result of the physical division of Korea by an agreement of the victorious Allies at the conclusion of the Pacific War at the end of World War II. The Korean peninsula was ruled by the Empire of Japan from 1910 until the end of World War II. Following the surrender of the Empire of Japan in September of 1945, American administrators divided the peninsula along the 38th parallel, with U.S. military forces occupying the southern half and Soviet military forces occupying the northern half."
+        },
+        {
+            "date": "2018-08-26",
+            "name": "Women's Equality Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Women%27s_Equality_Day",
+            "description": "Women's Equality Day is a day proclaimed each year by the United States President to commemorate the giving of the vote to women throughout the country on an equal basis to men.\n\nWomen in the United States were given the right to vote on August 26, 1920, when the 19th Amendment to the United States Constitution was certified. The amendment was first introduced many years earlier in 1878. Every president has published a proclamation for Women's Equality Day since 1971 when legislation was first introduced in Congress by Bella Abzug. This resolution was passed designating August 26 of each year as Women's Equality Day."
+        },
+        {
+            "date": "2018-09-08",
+            "name": "Carl Garner Federal Lands Cleanup Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Carl_Garner_Federal_Lands_Cleanup_Day",
+            "description": "Carl Garner Federal Lands Cleanup Day is a day observed in the United States to encourage nationwide citizen participation in the cleanup of federal lands. It occurs on the first Saturday after Labor Day, and may include a variety of programs, ceremonies, and activities. It was created in 1985 by the Federal Lands Cleanup Act as the \"Federal Lands National Cleanup Day\" and renamed in 1995 to honor Carl Garner and continue and expand his work of encouraging citizens to clean up Greers Ferry Lake and Little Red River in Arkansas."
+        },
+        {
+            "date": "2018-09-11",
+            "name": "Patriot Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Patriot_Day",
+            "description": "In the United States, Patriot Day occurs on September 11 of each year, designated in memory of the 2,977 killed in the September 11, 2001 terrorist attacks. Most Americans who were alive during the events refer to the day as \"Nine-Eleven (9\/11)\", \"September Eleventh\", or some variation thereof. Initially, the day was called the Prayer and Remembrance for the Victims of the Terrorist Attacks on September 11, 2001."
+        },
+        {
+            "date": "2018-09-17",
+            "name": "Constitution Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Constitution_Day_(United_States)",
+            "description": "Constitution Day (or Citizenship Day) is an American federal observance that recognizes the adoption of the United States Constitution and those who have become U.S. citizens. It is observed on September 17, the day the U.S. Constitutional Convention signed the Constitution in 1787."
+        },
+        {
+            "date": "2018-09-23",
+            "name": "September equinox",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Equinox",
+            "description": "An equinox occurs twice a year, when the tilt of the Earth's axis is inclined neither away from nor towards the Sun, the center of the Sun being in the same plane as the Earth's equator. The term equinox can also be used in a broader sense, meaning the date when such a passage happens. The name \"equinox\" is derived from the Latin aequus (equal) and nox (night), because around the equinox, the night and day have approximately equal length."
+        },
+        {
+            "date": "2018-10-07",
+            "name": "Fire Prevention Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Fire_Prevention_Week",
+            "description": "Fire Prevention Week is observed in the United States and Canada, during the week (from Sunday to Saturday) in which October 9 falls. In the United States, the first Presidential proclamation of Fire Prevention Week was made in 1925 by President Calvin Coolidge. The National Fire Protection Association (NFPA) continues to be the international sponsor of the week.\n\nIn Canada, Fire Prevention Week is proclaimed annually by the Governor General. The Saturday ending the week is also proclaimed as Fire Service Recognition Day to express appreciation for the many public services rendered by members of the Canadian fire service."
+        },
+        {
+            "date": "2018-10-09",
+            "name": "Leif Erikson Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Leif_Erikson_Day",
+            "description": "Leif Erikson Day is an annual American observance occurring on October 9. It honors Leif Ericson (Old Norse: Leifr Eir\u00edksson or the Norwegian: \"Leiv Eiriksson\"), the Norse explorer who brought the first Europeans known to have set foot in North America."
+        },
+        {
+            "date": "2018-10-31",
+            "name": "Halloween",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Halloween",
+            "description": "Halloween (a shortening of All Hallows\u2019 Evening), also known as Hallowe'en or All Hallows' Eve, is a yearly holiday observed around the world on October 31, the night before All Saints' Day. Much like Day of the Dead celebrations, the Christian feast of All Hallows' Eve, according to some scholars, incorporates traditions from pagan harvest festivals and festivals honouring the dead, particularly the Celtic Samhain; other scholars maintain that the feast originated entirely independently of Samhain. Typical festive Halloween activities include trick-or-treating (also known as \"guising\"), attending costume parties, carving jack-o'-lanterns, lighting bonfires, apple bobbing, visiting haunted attractions, playing pranks, telling scary stories, watching horror films, as well as the religious observances of praying, fasting and attending vigils or church services."
+        },
+        {
+            "date": "2018-11-04",
+            "name": "Daylight Saving Time ends",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Daylight_saving_time",
+            "description": "Turn clocks one hour backward at 2:00 AM\n\nDaylight saving time (DST) is the practice of temporarily advancing clocks during the summertime so that evenings have more daylight and mornings have less. Typically clocks are adjusted forward one hour near the start of spring and are adjusted backward in autumn. Modern DST was first proposed in 1895 by George Vernon Hudson  and it was first implemented during the First World War. Many countries have used it at various times since then; details vary by location."
+        },
+        {
+            "date": "2018-11-05",
+            "name": "Guy Fawkes Day",
+            "alternate_names": "Gunpowder Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Guy_Fawkes"
+        },
+        {
+            "date": "2018-11-06",
+            "name": "Election Day",
+            "flag_day": 1,
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Election_Day_%28United_States%29"
+        },
+        {
+            "date": "2018-11-23",
+            "name": "Black Friday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Black_Friday_%28shopping%29",
+            "description": "Black Friday is the day following Thanksgiving Day in the United States, traditionally the beginning of the Christmas shopping season. On this day, most major retailers open extremely early, often at 4 a.m., or earlier, and offer promotional sales to kick off the shopping season, similar to Boxing Day sales in many Commonwealth Nations. Black Friday is not actually a holiday, but some non-retail employers give their employees the day off, increasing the number of potential shoppers. It has routinely been the busiest shopping day of the year since 2005, although news reports, which at that time were inaccurate, have described it as the busiest shopping day of the year for a much longer period of time."
+        },
+        {
+            "date": "2018-11-24",
+            "name": "Small Business Saturday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Small_Business_Saturday",
+            "description": "Small Business Saturday is an American shopping holiday held on the Saturday after Thanksgiving during one of the busiest shopping periods of the year. First observed on November 27, 2010, it is a counterpart to Black Friday and Cyber Monday, which feature big box retail and e-commerce stores respectively. By contrast, Small Business Saturday encourages holiday shoppers to patronize brick and mortar businesses that are small and local."
+        },
+        {
+            "date": "2018-11-26",
+            "name": "Cyber Monday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Cyber_Monday",
+            "description": "Cyber Monday is a marketing term for the Monday after Thanksgiving in the United States. The term \"Cyber Monday\" was created by marketing companies to persuade people to shop online. The term made its debut on November 28, 2005 in a Shop.org press release entitled \"'Cyber Monday Quickly Becoming One of the Biggest Online Shopping Days of the Year\"."
+        },
+        {
+            "date": "2018-12-07",
+            "name": "Pearl Harbor Rememberance Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Pearl_Harbor_Remembrance_Day",
+            "description": "Pearl Harbor Remembrance Day, which is observed annually on December 7, is to remember and honor all those who died in the attack on Pearl Harbor on December 7, 1941. On August 23, 1994, United States Congress, by Pub.L. 103-308, designated December 7 of each year as National Pearl Harbor Remembrance Day. National Pearl Harbor Remembrance Day is also referred to as Pearl Harbor Remembrance Day or Pearl Harbor Day. It is a tradition to fly the Flag of the United States at half-staff until sunset in honor of dead patriots."
+        },
+        {
+            "date": "2018-12-17",
+            "name": "Pan American Aviation Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Pan_American_Aviation_Day"
+        },
+        {
+            "date": "2018-12-20",
+            "name": "Regifting Day",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/National_Regifting_Day"
+        },
+        {
+            "date": "2018-12-21",
+            "name": "Winter solstice",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Winter_Solstice",
+            "description": "The winter solstice is the time at which the sun is at its southernmost point in the sky (northernmost point in the Southern Hemisphere) appearing at noon at its lowest altitude above the horizon."
+        },
+        {
+            "date": "2018-12-22",
+            "name": "Super Saturday",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Super_Saturday"
+        },
+        {
+            "date": "2018-12-24",
+            "name": "Christmas Eve",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Christmas_Eve",
+            "description": "Christmas Eve refers to the evening or entire day preceding Christmas Day, a widely celebrated festival commemorating the birth of Jesus of Nazareth that takes place on December 25. It is a culturally significant celebration for most of the Western world and is widely observed as a full or partial holiday in anticipation of Christmas Day."
+        },
+        {
+            "date": "2018-12-31",
+            "name": "New Year's Eve",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/New_Year%27s_Eve",
+            "description": "In the Gregorian calendar, New Year's Eve, the last day of the year, is on December 31. In many countries, New Year's Eve is often celebrated at evening social gatherings, when many people dance, eat, drink alcoholic beverages, and watch or light fireworks to mark the new year. Some people attend a watchnight service. The celebrations generally go on past midnight into January 1 (New Year's Day)."
+        },
+        {
+            "date": "2018-02-15",
+            "name": "Chinese New Year (Dog)",
+            "url": "http:\/\/en.wikipedia.org\/wiki\/Chinese_New_Year"
         }
     ]
 }

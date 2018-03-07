@@ -10,12 +10,13 @@
                     <h3>Search Results</h3>
                     <hr class="intro-divider">
                     {% for result in results %}
-                        <a href="/search_results/{{result._source.data}}/{{result._id}}">{{ result._source.data }} {{ result._source.date}}</a>
+                        <p><a href="/search_results/{{result._source.data}}/{{result._id}}" target="_blank">{{ result._source.data }} {{ result._source.date}}</a></p>
                     {% endfor %}
-                    </ul>
+                    {{ pagination.info }}
                 </div>
             </div>
         </div>
+         {{ pagination.links }}
     </div>
 </div>
 {% endblock %}

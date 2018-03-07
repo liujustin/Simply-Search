@@ -13,8 +13,8 @@ class MongoDB:
 
             # Connect to mongo on port : 27017
             print '---Connecting to MongoDB at %s---.' % self.host
-            self.connection.drop_database('elasticdata')
-            db = self.connection.elasticdata
+            self.connection.drop_database('enerknol')
+            db = self.connection.enerknol
             db_data = db.data
 
             print '---Opening JSON File---'
@@ -41,6 +41,6 @@ class MongoDB:
         """
         Searches the database for a specified query 
         """
-        return self.connection.elasticdata.data.find_one({"_id": ObjectId(id)})
+        return self.connection.enerknol.data.find_one({"_id": ObjectId(id)})
         
     

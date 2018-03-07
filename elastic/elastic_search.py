@@ -18,6 +18,7 @@ class Elastic_Search:
             self.es.indices.delete(index="elasticsearch")
             print '---Indexing data into elastic search---'
             for document in cursor:
+                print document
                 self.es.index(index="elasticsearch",
                               doc_type="sample_data",
                               id=json.loads(json_util.dumps(document['_id'])).get("$oid"),
@@ -32,5 +33,4 @@ class Elastic_Search:
         """
         Searches the database for a specified query 
         """
-        print query
-        return self.es.search(index="elasticsearch", doc_type="sample_data", body={ "query": {"match_phrase" : {"data": query}}})['hits']['hits']
+        return self.es.search(index="elasticsearch", doc_type="sample_data", size=1000, body={ "query": {"match_phrase" : {"data": query}}})['hits']['hits']
