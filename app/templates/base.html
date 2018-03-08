@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ title }} | Project Enerknol</title>
+        <title>{{ title }} | Project EnerKnol</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
         <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
@@ -11,16 +11,10 @@
         <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
             <div class="container topnav">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
                     {% if current_user.is_authenticated %}
-                    <a class="navbar-brand topnav" href="{{ url_for('home.search') }}">Project Enerknol</a>
+                    <a class="navbar-brand topnav" href="{{ url_for('home.search') }}">Project EnerKnol</a>
                     {% else %}
-                    <a class="navbar-brand topnav" href="{{ url_for('home.homepage') }}">Project Enerknol</a>
+                    <a class="navbar-brand topnav" href="{{ url_for('home.homepage') }}">Project EnerKnol</a>
                     {% endif %}
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -34,7 +28,7 @@
                         </li>
                         <li>
                             <a>
-                                <i class="fa fa-user"></i> Hello, {{ current_user.username }}!</a>
+                                <i class="fa fa-user"></i> Hello, {{ current_user.first_name }} {{ current_user.last_name }}!</a>
                         </li>
                         {% else %}
                         <li>
