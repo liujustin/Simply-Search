@@ -1,3 +1,3 @@
-FLASK_CONFIG=production
-FLASK_APP=run.py
+web: FLASK_CONFIG=production
+web: FLASK_APP=run.py
 web: flask run
