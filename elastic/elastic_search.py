@@ -14,8 +14,8 @@ class Elastic_Search:
             # mongodb cursor
             cursor = mongo_db.find({})
             # for each entry in mongodb, index an elasticsearch
-            if self.es.indices.exists(index="elasticsearch"):
-                self.es.indices.delete(index="elasticsearch")
+            # if self.es.indices.exists(index="elasticsearch"):
+            #     self.es.indices.delete(index="elasticsearch")
             print '---Indexing data into elastic search---'
             for document in cursor:
                 self.es.index(index="elasticsearch",
