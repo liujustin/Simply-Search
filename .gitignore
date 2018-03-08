@@ -2,4 +2,3 @@
 *.pyc
 instance/
 migrations/
-.env
