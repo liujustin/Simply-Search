@@ -8,7 +8,8 @@ class Elastic_Search:
 
     def __init__(self, hosts):
         self.hosts = hosts
-        self.es = elasticsearch.Elasticsearch(hosts=self.hosts, http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
+        print "hosts", hosts
+        self.es = elasticsearch.Elasticsearch(hosts=hosts, http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
 
     def initiate(self, mongo_db):
         """
