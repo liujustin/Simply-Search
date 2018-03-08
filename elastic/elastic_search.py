@@ -7,7 +7,7 @@ class Elastic_Search:
 
     def __init__(self, hosts):
         self.hosts = hosts
-        self.es = elasticsearch.Elasticsearch(self.hosts, http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
+        self.es = elasticsearch.Elasticsearch(['https://jsy0vkfpyo:nu4ueefwd7@holly-2620832.us-east-1.bonsaisearch.net'], http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
 
     def initiate(self, mongo_db):
         try:
@@ -15,15 +15,14 @@ class Elastic_Search:
             cursor = mongo_db.find({})
             # for each entry in mongodb, index an elasticsearch
             # if self.es.indices.exists(index="elasticsearch"):
-            #     self.es.indices.delete(index="elasticsearch")
+            #   self.es.indices.delete(index="elasticsearch")
             print '---Indexing data into elastic search---'
             for document in cursor:
                 self.es.index(index="elasticsearch",
                               doc_type="sample_data",
                               id=json.loads(json_util.dumps(document['_id'])).get("$oid"),
-                              body={"data": document["sample_data"]["name"], "date":document["sample_data"]["date"]},
-                              refresh=True)
-                # self.es.indices.refresh(index="elasticsearch")
+                              body={"data": document["sample_data"]["name"], "date":document["sample_data"]["date"]})
+                self.es.indices.refresh(index="elasticsearch")
             # refresh indices in elastic
             print '---Data successfully indexed---'
         except:
