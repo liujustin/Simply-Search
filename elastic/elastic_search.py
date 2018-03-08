@@ -7,7 +7,7 @@ class Elastic_Search:
 
     def __init__(self, hosts):
         self.hosts = hosts
-        self.es = elasticsearch.Elasticsearch(['https://jsy0vkfpyo:nu4ueefwd7@holly-2620832.us-east-1.bonsaisearch.net'], http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
+        self.es = elasticsearch.Elasticsearch(self.hosts, http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
 
     def initiate(self, mongo_db):
         try:

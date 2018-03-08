@@ -3,7 +3,8 @@ from elastic import Elastic_Search
 
 
 def searching_elastic(search_text):
-    es = Elasticsearch(self.hosts, http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
+    es = Elastic_Search(hosts=['https://jsy0vkfpyo:nu4ueefwd7@holly-2620832.us-east-1.bonsaisearch.net'])
+
     result = es.search_elastic(search_text)
     display_array = []
     if result:
