@@ -14,15 +14,16 @@ class Elastic_Search:
             # mongodb cursor
             cursor = mongo_db.find({})
             # for each entry in mongodb, index an elasticsearch
-            if self.es.indices.exists(index="elasticsearch"):
-                self.es.indices.delete(index="elasticsearch")
+            # if self.es.indices.exists(index="elasticsearch"):
+            #     self.es.indices.delete(index="elasticsearch")
             print '---Indexing data into elastic search---'
             for document in cursor:
                 self.es.index(index="elasticsearch",
                               doc_type="sample_data",
                               id=json.loads(json_util.dumps(document['_id'])).get("$oid"),
-                              body={"data": document["sample_data"]["name"], "date":document["sample_data"]["date"]})
-                self.es.indices.refresh(index="elasticsearch")
+                              body={"data": document["sample_data"]["name"], "date":document["sample_data"]["date"]},
+                              refresh=True)
+                # self.es.indices.refresh(index="elasticsearch")
             # refresh indices in elastic
             print '---Data successfully indexed---'
         except:
