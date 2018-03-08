@@ -59,7 +59,7 @@ def login():
         
         # if user does not exist, give message that says its wrong
         else:
-            flash('Invalid email or password.')
+            flash('Invalid username or password.')
 
     return render_template('auth/login.html', form=login_form, title='Login')
 
