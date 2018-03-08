@@ -29,6 +29,7 @@ def register():
                     password=registration_form.password.data)
 
         # adding a user to the database
+        db.create_all()
         db.session.add(user)
         db.session.commit()
         flash('You have been successfully registered!')
