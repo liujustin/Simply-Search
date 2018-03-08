@@ -13,10 +13,10 @@
                         <p><a href="/search_results/{{result._source.data}}/{{result._id}}" target="_blank">{{ result._source.data }} {{ result._source.date}}</a></p>
                     {% endfor %}
                     {{ pagination.info }}
+                    {{ pagination.links }}
                 </div>
             </div>
         </div>
-         {{ pagination.links }}
     </div>
 </div>
 {% endblock %}
