@@ -35,8 +35,8 @@ def register():
         db.session.commit()
         flash('You have been successfully registered!')
 
-        # redirect to the login page
-        return redirect(url_for('auth.login'))
+        # redirect to the main search page
+        return redirect(url_for('home.search'))
 
     return render_template('auth/register.html', form=registration_form, title='Register')
 
