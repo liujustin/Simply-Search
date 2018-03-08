@@ -22,6 +22,7 @@ def register():
 
     registration_form = RegistrationForm()
     if registration_form.validate_on_submit():
+        db.create_all()
         user = User(email=registration_form.email.data,
                     username=registration_form.username.data,
                     first_name=registration_form.first_name.data,
