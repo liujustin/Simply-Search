@@ -7,3 +7,4 @@ flask-bootstrap
 pymongo
 elasticsearch
 flask_paginate
+python-dotenv
