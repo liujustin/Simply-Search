@@ -7,7 +7,8 @@ def searching_elastic(search_text):
     """
     Creates an instance of elastic search and searches to see if it has results for specified search text.
     """
-    es = Elastic_Search(hosts=os.getenv("ELASTIC_HOSTS"))
+    print "elastichost", os.environ.getenv("ELASTIC_HOSTS")
+    es = Elastic_Search(hosts=os.environ.getenv("ELASTIC_HOSTS"))
 
     result = es.search_elastic(search_text)
     display_array = []
