@@ -5,7 +5,7 @@ from app import create_app
 from mongo import mongo_db
 from elastic import elastic_search
 from config import Config
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 
 app = create_app(os.getenv('FLASK_CONFIG'))
