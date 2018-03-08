@@ -1,10 +1,10 @@
-flask-sqlalchemy
-mysql-python
+elasticsearch
+flask-bootstrap
 flask-login
 flask-migrate
+flask-sqlalchemy
 Flask-WTF
-flask-bootstrap
-pymongo
-elasticsearch
 flask_paginate
+mysql-python
+pymongo
 python-dotenv
