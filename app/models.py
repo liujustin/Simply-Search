@@ -22,6 +22,7 @@ class User(UserMixin, db.Model):
         """
         Prevent password from being accessed
         """
+
         raise AttributeError('password is not a readable attribute')
     
     @password.setter
@@ -29,12 +30,14 @@ class User(UserMixin, db.Model):
         """
         Set hashed password
         """
+
         self.password_hash = generate_password_hash(password)
 
     def verify_password(self, password):
         """
         Check if hashed passwords match actual password
         """
+        
         return check_password_hash(self.password_hash, password)
     
     def __repr__(self):

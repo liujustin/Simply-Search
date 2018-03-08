@@ -14,6 +14,7 @@ class Elastic_Search:
         """
         Takes in a mongo_db instance, initializes elastic search and indexes the results from mongo.
         """
+
         try:
             # mongodb cursor
             cursor = mongo_db.find({})
@@ -27,8 +28,8 @@ class Elastic_Search:
                               doc_type="sample_data",
                               id=json.loads(json_util.dumps(document['_id'])).get("$oid"),
                               body={"data": document["sample_data"]["name"], "date":document["sample_data"]["date"]})
+                # refresh indices in elastic
                 self.es.indices.refresh(index="elasticsearch")
-            # refresh indices in elastic
             print '---Data successfully indexed---'
         except:
             print "Unexpected Error: ", sys.exc_info()
@@ -37,4 +38,5 @@ class Elastic_Search:
         """
         Searches the database for a specified search term and returns the result.
         """
+
         return self.es.search(index="elasticsearch", doc_type="sample_data", size=1000, body={"query":{"match_phrase":{"data": search_term}}})['hits']['hits']

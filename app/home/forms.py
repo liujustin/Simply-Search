@@ -7,5 +7,6 @@ class SearchForm(FlaskForm):
     """
     Form for users to search in a string text box with a submit field.
     """
+    
     search = StringField('', validators=[DataRequired()])
     submit = SubmitField('Search')

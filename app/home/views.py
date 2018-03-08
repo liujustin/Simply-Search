@@ -23,6 +23,7 @@ def search():
     """
     Render the dashboard template on /search route after logging in
     """
+
     search_form = SearchForm()
     if search_form.validate_on_submit():
         return redirect((url_for('home.search_results', query=search_form.search.data)))
@@ -35,6 +36,7 @@ def search_results(query):
     Render the search results template on /search_results/<query> and chooses how many results
     to display per page using Pagination
     """
+
     page, per_page, offset = get_page_args()
     search_result = searching_elastic.searching_elastic(query)
     # array that will only display a couple of results per page depending on the offset
@@ -50,6 +52,7 @@ def mongo_results(query, mongo_id):
     After clicking on a page in the search results template, render mongo results template
     to show the data from the mongodb that matches the id returned from elastic.
     """
+    
     result = searching_mongo.searching_mongo(mongo_id)
     return render_template('home/mongo_results.html', results=result)
 

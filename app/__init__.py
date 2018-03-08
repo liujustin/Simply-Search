@@ -15,6 +15,7 @@ def create_app(config_name):
     Creates the flask application, registers it with Bootstrap, initializes it and sets up flask blueprints.
     Also initializes database tables.
     """
+    
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_object(app_config[config_name])
     app.secret_key = 'a super secret key'

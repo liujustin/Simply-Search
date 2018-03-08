@@ -12,15 +12,17 @@ class MongoDB:
         """
         Initializes mongodb and returns a database instance with the data read in from data.json
         """
-        try:
 
+        try:
             # Connecting to mongo
             print '---Connecting to MongoDB at %s---.' % self.host
+
             # dropping current database if it exists so we can start fresh
             self.connection.drop_database('enerknol')
             db = self.connection.enerknol
             db_with_data = db.data
 
+            # Open json file that contains all the calendar events
             print '---Opening JSON File---'
             with open('mongo/data.json') as data_file:
                 data = json.load(data_file)
@@ -37,7 +39,6 @@ class MongoDB:
             print '---Data Inserted SuccessFully---'
 
             return db_with_data
-
         except:
             print "Unexpected Error: ", sys.exc_info()
     
@@ -45,6 +46,7 @@ class MongoDB:
         """
         Searches the database for a specified query 
         """
+        
         return self.connection.enerknol.data.find_one({"_id": ObjectId(id)})
         
     
