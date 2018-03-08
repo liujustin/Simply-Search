@@ -17,7 +17,7 @@ def create_app(config_name):
     
     Bootstrap(app)
     db.init_app(app)
-    db.create_all()
+    db.create_all(app)
     login_manager.init_app(app)
     login_manager.login_message = "You must be logged in to access this page."
     login_manager.login_view = "auth.login"
