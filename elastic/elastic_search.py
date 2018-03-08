@@ -1,3 +1,4 @@
+import os
 import elasticsearch
 import json
 import sys
@@ -7,9 +8,12 @@ class Elastic_Search:
 
     def __init__(self, hosts):
         self.hosts = hosts
-        self.es = elasticsearch.Elasticsearch(['https://jsy0vkfpyo:nu4ueefwd7@holly-2620832.us-east-1.bonsaisearch.net'], http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
+        self.es = elasticsearch.Elasticsearch(hosts=os.getenv("ELASTIC_HOSTS"), http_auth=('jsy0vkfpyo','nu4ueefwd7'), verify_certs=False)
 
     def initiate(self, mongo_db):
+        """
+        Takes in a mongo_db instance, initializes elastic search and indexes the results from mongo.
+        """
         try:
             # mongodb cursor
             cursor = mongo_db.find({})
@@ -29,8 +33,8 @@ class Elastic_Search:
         except:
             print "Unexpected Error: ", sys.exc_info()
     
-    def search_elastic(self, query):
+    def search_elastic(self, search_term):
         """
-        Searches the database for a specified query 
+        Searches the database for a specified search term and returns the result.
         """
-        return self.es.search(index="elasticsearch", doc_type="sample_data", size=1000, body={ "query": {"match_phrase" : {"data": query}}})['hits']['hits']
+        return self.es.search(index="elasticsearch", doc_type="sample_data", size=1000, body={"query":{"match_phrase":{"data": search_term}}})['hits']['hits']

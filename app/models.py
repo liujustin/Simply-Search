@@ -5,7 +5,7 @@ from app import db, login_manager
 
 class User(UserMixin, db.Model):
     """
-    Create a user table
+    Create a user table with email, username, firstname, lastname, password
     """
 
     __tablename__ = 'user'

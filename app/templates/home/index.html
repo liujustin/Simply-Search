@@ -9,12 +9,8 @@
                     <h1>Project ENERKNOL</h1>
                     <hr class="intro-divider">
                     <h3>Before you can search, please Register or Login</h3>
-                    <li>
-                        <a href="{{ url_for('auth.register') }}">Register</a>
-                    </li>
-                    <li>
-                        <a href="{{ url_for('auth.login') }}">Login</a>
-                    </li>
+                    <a class="btn btn-default" href="{{ url_for('auth.register') }}" role="button">Register</a>
+                    <a class="btn btn-default" href="{{ url_for('auth.login') }}" role="button">Login</a>
                     </ul>
                 </div>
             </div>
