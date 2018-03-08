@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ title }} | Project Enerknol</title>
+        <title>{{ title }} | Project EnerKnol</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
         <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
@@ -12,9 +12,9 @@
             <div class="container topnav">
                 <div class="navbar-header">
                     {% if current_user.is_authenticated %}
-                    <a class="navbar-brand topnav" href="{{ url_for('home.search') }}">Project Enerknol</a>
+                    <a class="navbar-brand topnav" href="{{ url_for('home.search') }}">Project EnerKnol</a>
                     {% else %}
-                    <a class="navbar-brand topnav" href="{{ url_for('home.homepage') }}">Project Enerknol</a>
+                    <a class="navbar-brand topnav" href="{{ url_for('home.homepage') }}">Project EnerKnol</a>
                     {% endif %}
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
