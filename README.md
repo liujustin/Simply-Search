@@ -1,4 +1,4 @@
-# EnerKnol Code Challenge
+# Search Me
 
 A basic web application utilizing the Flask framework with Jinja2 templating in order to allow for custom searching. The application allows for registering, authorization and searching.
 
@@ -27,7 +27,7 @@ pip install virtualenv
 
 pip install virtualenvwrapper
 
-mkvirtualenv enerknol
+mkvirtualenv searchme
 
 pip install -r requirements.txt
 ```
@@ -73,7 +73,7 @@ I used [Git](https://git-scm.com) for versioning. Everything was pushed to [GitH
 
 * **Justin Liu** - [LinkedIn](https://www.linkedin.com/in/imjustliu/)  [GitHub](https://github.com/liujustin)
 
-## Requirements:
+## Features:
 - [X] Register a user with a username, First name, Last name, email, and 
 password. 
 - [X] Save the user data in MySQL database 

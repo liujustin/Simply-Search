@@ -18,8 +18,8 @@ class MongoDB:
             print '---Connecting to MongoDB at %s---.' % self.host
 
             # dropping current database if it exists so we can start fresh
-            self.connection.drop_database('enerknol')
-            db = self.connection.enerknol
+            self.connection.drop_database('searchme')
+            db = self.connection.searchme
             db_with_data = db.data
 
             # Open json file that contains all the calendar events
@@ -47,6 +47,6 @@ class MongoDB:
         Searches the database for a specified query 
         """
         
-        return self.connection.enerknol.data.find_one({"_id": ObjectId(id)})
+        return self.connection.searchme.data.find_one({"_id": ObjectId(id)})
         
     
