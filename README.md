@@ -48,7 +48,7 @@ You'll also want to set up additional environment variables for Mongo, SQLALCHEM
 export ELASTIC_HOSTS=[{ "host" : "localhost", "port" : 9200 }]
 ```
 
-or replace with your own host link (maybe using [Bonsai](https://bonsai.io/index.html) that is in a list format
+or replace with your own host link (maybe using [Bonsai](https://bonsai.io/index.html) that is in a list format)
 
 * For MONGO_URI, use 
 
@@ -56,7 +56,7 @@ or replace with your own host link (maybe using [Bonsai](https://bonsai.io/index
 export MONGO_URI='mongodb://localhost:27017'
 ```
 
-or replace with your own host link (maybe using [MLabs](https://mlab.com)
+or replace with your own host link (maybe using [MLabs](https://mlab.com))
 
 * For SQLALCHEMY_DATABASE_URI, you can either set it up using MySQL
 
