@@ -41,6 +41,38 @@ export FLASK_CONFIG=development
 export FLASK_APP=run.py
 ```
 
+You'll also want to set up additional environment variables for Mongo, SQLALCHEMY and Secret Keys:
+
+* For ELASTIC_HOSTS, use
+```bash
+export ELASTIC_HOSTS=[{ "host" : "localhost", "port" : 9200 }]
+```
+
+or replace with your own host link (maybe using [Bonsai](https://bonsai.io/index.html) that is in a list format
+
+* For MONGO_URI, use 
+
+```bash
+export MONGO_URI='mongodb://localhost:27017'
+```
+
+or replace with your own host link (maybe using [MLabs](https://mlab.com)
+
+* For SQLALCHEMY_DATABASE_URI, you can either set it up using MySQL
+
+```bash
+export SQLALCHEMY_DATABASE_URI=mysql://example_admin:example_password@localhost/searchme
+```
+
+or use a postgres URL made from AWS
+
+* For WTF_CSRF_SECRET_KEY and SECRET_KEY, just create your own
+
+```bash
+export WTF_CSRF_SECRET_KEY='secretcsrfkey
+export SECRET_KEY='a super secret key'
+```
+
 After this, you want to initialize your database and have migrations.
 
 ```bash
